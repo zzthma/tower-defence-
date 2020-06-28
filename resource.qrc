@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>1.jpg</file>
+        <file>2.png</file>
+        <file>attack.png</file>
+        <file>attack2.png</file>
+        <file>basic.png</file>
+        <file>basic2.png</file>
+        <file>enemy1.png</file>
+        <file>enemy2.png</file>
+        <file>Info.plist</file>
+        <file>map1.jpg</file>
+        <file>map2.jpg</file>
+        <file>tower1.png</file>
+        <file>tower2.png</file>
+        <file>TowersPosition.plist</file>
+        <file>Waves.plist</file>
+        <file>Waves1.plist</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>1.mp3</file>
+        <file>first.mp3</file>
+        <file>next.mp3</file>
+    </qresource>
+</RCC>
