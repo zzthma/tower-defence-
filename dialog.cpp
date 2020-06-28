@@ -86,37 +86,7 @@ void Dialog::doGameOver()
         _gameEnded = true;
 
     }
-    if(!_towerPositionsList.empty())
-    {
-        for(int i=0;i<_towerPositionsList.size();i++)
-            {
-                 _towerPositionsList.removeAt(i);
-            }
-    }
-   if(!_towersList.empty()){
 
-      foreach(basictower *tower, _towersList)
-            {
-                     _towersList.removeOne(tower);
-                     delete tower;
-                 }
-    }
-   if(!_enemyList.empty()){
-
-    foreach(enemy1 *enemy, _enemyList)
-         {
-                         _enemyList.removeOne(enemy);
-                         delete enemy;
-                     }
-        }
-   if(!_bulletList.empty()){
-
-    foreach( attack *Attack, _bulletList)
-         {
-               _bulletList.removeOne(Attack);
-                 delete Attack;
-                     }
-        }
 }
 
 void Dialog::awardgold(int gold)
